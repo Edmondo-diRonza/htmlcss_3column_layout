@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: yellow;
+    height: 200px;
+    margin-top: 2%;
+}
+main {
+    margin: 1.5% 0%;
+}
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.col-sx, .col-dx, .col-cent {
+    float: left;
+    height: 300px;
+    background-color: pink;
+    width: 25%;
+}
+
+.col-cent{
+    width: 46%;
+    height: 500px;
+    background-color: darkviolet;
+    margin: 0% 2%;
+}
+
+.col-dx {
+    height: 480px;
+    background-color: transparent;
+}
+footer{
+    background-color: rgb(32, 176, 212);
+    height: 80px;
+}
+
+.widget {
+    background-color: pink;
+    width: 100%;
+    height: 46%;
+    margin-bottom: 8%;
+}
